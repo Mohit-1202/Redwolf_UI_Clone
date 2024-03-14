@@ -1,0 +1,670 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: arial;
+}
+header{
+    /* height: 50px; */
+    background-color: white;
+}
+.navbar{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    height: 45px;
+    width: 150px;
+    background-image: url(https://www.redwolf.in/catalog/view/theme/redwolf/image/header/logo.png);
+    background-size: cover;
+}
+.logobackground{
+    height: 50px;
+    width: 200px;
+    background-color: #d4161e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo:hover{
+    background-image: url(https://www.redwolf.in/image/catalog/rw-logo-gif-transparent-red.gif);
+}
+.navoptions{
+    background-color: white;
+    width: 750px;
+    height: 40px;
+    border: 1px solid black ;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-color: white;
+}
+.navoption1{
+    height: 50px;
+    width: 83px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 800;
+    margin-right: 10px;
+    margin-left:10px;
+    border-color: white;
+}
+.navoption_11{
+    background-color:green;
+    font-size:20px;
+}
+.navoption1:hover{
+    color: #d4161e;
+    font-size: 16px;
+}
+.navoption2{
+    font-size: 14px;
+    font-weight: 800;
+    border-color: white;
+    width: 77px;
+}
+.navoption2:hover{
+    color: #d4161e;
+    font-size: 16px;
+}
+.navoption3{
+    font-size: 14px;
+    font-weight: 800;
+    border-color: white;
+    width: 103px;
+}
+.navoption3:hover{
+    color: #d4161e;
+    font-size: 16px;
+}
+.navoption4{
+    font-size: 14px;
+    font-weight: 800;
+    border-color: white;
+    width: 137px;
+}.navoption4:hover{
+    color: #d4161e;
+    font-size: 16px;
+}
+.navoption5{
+    font-size: 14px;
+    font-weight: 800;
+    border-color: white;
+    width: 136px;
+}
+.navoption5:hover{
+    color: #d4161e;
+    font-size: 16px;
+
+}
+.navoption6{
+    font-size: 14px;
+    font-weight: 800;
+    border-color: white;
+    width: 120px;
+}
+.navoption6:hover{
+    color: #d4161e;
+    font-size: 16px;
+}
+.navsearch{
+    width: 220px;
+    height: 50px;
+    margin-top:8px;
+    display: flex;
+}
+
+.navsearch i{
+    height: 11px;
+    width: 12px;
+    margin: 10px;
+    font-size: 14px;
+    margin-bottom: 2px;
+    font-weight: 800;
+    margin-right: 0px;
+}
+.navsearch1{
+    background-color: #ececec;
+    height: 28px;
+    border: 2px solid #b4b4b4;
+    border-right: none;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px;
+}
+.search{
+    width: 205px;
+    height: 32px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+    border: 2px solid #b4b4b4;
+    border-left: none;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px;
+}
+.navicons{
+    width: 58px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #dbdbdb;
+    border-left:   1px solid #dbdbdb;
+}
+.navicon1{
+    display: flex;
+    font-size: 28px ;
+    margin-top: 6px;
+}
+.navicon1:hover{
+    font-size: 32px;
+}
+.navbar2{
+    height: 54px;
+    background-color: white;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid #dbdbdb ;
+}
+.iconspider{
+    height: 55px;
+    width: 101px;
+    margin-top: 4px;
+}
+.heroimage{
+    margin-top:10px;
+    background-image:url(https://www.redwolf.in/image/cache/catalog/sliders/hoodies-slider-1920-1920x450.jpg?m=1699335455);
+    height: 370px;
+    background-size: cover;
+    animation-name: myHero;
+    animation-duration:3s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+@keyframes myHero{
+    form{background-image:url(https://www.redwolf.in/image/cache/catalog/sliders/hoodies-slider-1920-1920x450.jpg?m=1699335455);
+    }
+    to{    background-image:url(https://www.redwolf.in/image/cache/catalog/sliders/Drop-cut-new-slider-1920-1920x450.jpg?m=1702356582);
+    }
+}
+/* .heroimageafk{
+    background-image: url(https://www.redwolf.in/image/cache/catalog/sliders/Drop-cut-new-slider-1920-1920x450.jpg?m=1702356582);
+} */
+.featuredthemes{
+    margin-top: 25px;
+    font-size: 24px;
+    font-family: arial;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    color: #363636;
+}
+.models{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-top: 5px;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    margin-left:120px;
+}
+.modelname{
+    font-size: 16px;
+    font-weight: #363636;
+    margin-top: -5px;
+    font-weight: 600;
+}
+.modelimage{
+    height: 170px;
+    width: 155px;
+}
+.modelimage:hover{
+    height: 200px;
+    width:190px ;
+}
+.featuredcategories{
+    margin-top: 25px;
+    font-size: 24px;
+    font-family: arial;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    color: #363636;
+}
+.featurednotes{
+    font-size: 16px;
+    text-align: center;
+    color: #646464;
+    font-weight:400;
+    font-style: italic;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top:15px;
+    width: 90%;
+    justify-content: center;
+    margin-left: 73px;
+}
+.shop1{
+    height: 290px;
+    width: 290px;
+    background-image: url(https://www.redwolf.in/image/cache/catalog/featured_categories/featured-category-oversized-t-shirts-23-480x480.jpg?m=1706184531);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    margin-right: 7px;
+}
+.shopname{
+    width: 127px;
+    height: 35.8px;
+    background-color: #d4161e;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 4px;
+    margin-bottom: 8px;
+}
+.shop2{
+    height: 290px;
+    width: 290px;
+    background-image: url(https://www.redwolf.in/image/cache/catalog/featured_categories/featured-category-t-shirts-23-480x480.jpg?m=1706184531);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    margin-right: 7px;
+}
+.shopname2{
+    width: 107px;
+    height: 35.8px;
+    background-color: #d4161e;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 4px;
+    margin-bottom: 8px;
+}
+.shop3{
+    height: 290px;
+    width: 290px;
+    background-image: url(https://www.redwolf.in/image/cache/catalog/featured_categories/featured-category-socks-23-480x480.jpg?m=1706184531);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    margin-right: 7px;
+}
+.shopname3{
+    width: 87px;
+    height: 35.8px;
+    background-color: #d4161e;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 4px;
+    margin-bottom: 8px;
+}
+.shop4{
+    height: 290px;
+    width: 290px;
+    background-image: url(https://www.redwolf.in/image/cache/catalog/featured_categories/featured-category-phone-cases-23-480x480.jpg?m=1706184531);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    margin-right: 7px;
+}
+.shopname4{
+    width: 173px;
+    height: 35.8px;
+    background-color: #d4161e;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 4px;
+    margin-bottom: 8px;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top:15px;
+    width: 85%;
+    justify-content: center;
+    margin-left: 110px;
+}
+.shop5{
+    height: 290px;
+    width: 290px;
+    background-image: url(https://www.redwolf.in/image/cache/catalog/featured_categories/featured-category-baseball-caps-23-480x480.jpg?m=1706184531);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    margin-right: 7px;
+}
+.shopname5{
+    width: 170px;
+    height: 35.8px;
+    background-color: #d4161e;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 4px;
+    margin-bottom: 8px;
+}
+.shop6{
+    height: 290px;
+    width: 290px;
+    background-image: url(https://www.redwolf.in/image/cache/catalog/featured_categories/featured-category-masks-23-480x480.jpg?m=1706184531);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    margin-right: 7px;
+}
+.shopname6{
+    width: 139px;
+    height: 35.8px;
+    background-color: #d4161e;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 4px;
+    margin-bottom: 8px;
+}
+.shop7{
+    height: 290px;
+    width: 290px;
+    background-image: url(https://www.redwolf.in/image/cache/catalog/featured_categories/featured-category-mugs-23-480x480.jpg?m=1706184531);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    margin-right: 7px;
+}
+.shopname7{
+    width: 82px;
+    height: 35.8px;
+    background-color: #d4161e;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 4px;
+    margin-bottom: 8px;
+}
+.shop8{
+    height: 290px;
+    width: 290px;
+    background-image: url(https://www.redwolf.in/image/cache/catalog/featured_categories/featured-category-oversized-sweat-shirts-23-480x480.jpg?m=1706184531);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    margin-right: 7px;
+}
+.shopname8{
+    width: 153px;
+    height: 35.8px;
+    background-color: #d4161e;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 4px;
+    margin-bottom: 8px;
+}
+.brands{
+    height: 115px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    margin-top:15px;
+    width: 85%;
+    justify-content: center;
+    margin-left: 110px;
+}
+.brand1{
+    margin-right: 25px;
+}
+.brand2{
+    margin-right: 25px;
+}
+.brand3{
+    margin-right: 25px;
+}
+.brand4{
+    margin-right: 25px;
+}
+.brand5{
+    margin-right: 25px;
+}
+.brand6{
+    margin-right: 25px;
+}
+.brand7{
+    margin-right: 25px;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 40px;
+}
+.product1{
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+.productimage{
+    height: 394px;
+    width: 296px;
+}
+.productdisc{
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 900px;
+    color: #363636;
+    margin-left: 5px;
+}
+.brandname{
+    color: #EC1A30;
+    font-size:12px;
+    margin-top: 5px;
+    margin-left: 5px;
+    align-items: end;
+}
+.price{
+    font-size: 14px;
+    display: flex;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.discount1{
+    font-size: 14px;
+    color: #EC1A30;
+    display: flex;
+    margin-left:100px;
+}
+footer{
+    height: 564px;
+    background-color: #191919;
+    margin-top: 140px;
+}
+.subscribe{
+    height: 50px;
+    width: 75%;
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    margin-left: 170px;
+    margin-top: 50px;
+    border-radius:5px ;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.newsletter{
+    display: flex;
+    font-size: 15px;
+    color: #646464;
+    font-weight:500;
+
+}
+.inputsearch{
+    width: 291px;
+    height: 31px;
+    border-radius: 6px;
+    padding-left: 8px;
+    font-size: 15px;
+    border: none;
+}
+.inputsubmit{
+    background-color: #EC1A30;
+    height: 32px;
+    width: 175px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.inputsubmit:active{
+    font-size: 16px;
+}
+.footerlist{
+    font-size: 14px;
+    color: #787878;
+    display: flex;
+    width: 80px;
+    background-color: #191919;
+    justify-content: center;
+    width: 80%;
+    margin-left: 40px;
+}
+.footerlist h5{
+    color: white;
+    font-size: 13px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    display: flex;
+    width: 500px ;
+}
+.footerlist a{
+    display: flex;
+    color: #787878;
+    width: 500px;
+    margin-top:5px;
+}
+.footerlist1{
+    display: block;
+    font-size: 14px;
+    color: #787878;
+    width: 80px;
+    background-color: #191919;
+    justify-content: center;
+    width: 80px;
+    margin-right:90px
+}
+.socialmedia{
+    color: white;
+    font-size: 30px;
+    height: 100px;
+    width: 200px; 
+    margin-left: 50px;
+}
+.socialmedia h5{
+    margin-bottom: 5px;
+}
+.socialmedia i{
+    margin-right: 8px;
+}
+.footerlist1 a:hover{
+    text-decoration: underline;
+}
+.featuredcategories1{
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: arial;
+    display: flex;
+    font-weight: 300;
+    justify-content: center;
+    color: #E2E2E2;
+    margin-top: 40px;
+}
+.emptydiv{
+    height: 1px;
+    background-color:#191919; ;
+}
+.logistic{
+    height: 60px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logistic i {
+    font-size: 20px;
+    color: #787878;
+    display: flex;
+    font-size: 30px;
+    color: #787878;
+}
+.logistic p {
+    color:#787878;
+    font-size: 14px;
+    width: 200px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+.copyright{
+    display: flex;
+    height: 46px;
+    color: #E2E2E2;
+    background-color: #303030;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
